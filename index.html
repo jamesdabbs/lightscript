@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <script src="./src/main.js"></script> -->
+        <!-- <script src="./src/keyboard.js"></script> -->
+        <script src="./src/scratch.js"></script>
+
+        <title>Beepy Boops</title>
+
+        <style type="text/css">
+          /* This is a CSS rule that colors the `div`s with class="square" red */
+          .square {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 10px;
+            float: left;
+          }
+        </style>
+    </head>
+    <body>
+        <div id="main"></div>
+
+        <!-- We give ids to some of these squares so that we can use `document.getElementById`
+             in our Javascript to grab an manipulate these nodes
+           -->
+        <div id="pitch" class="square"></div>
+        <div id="clickable-square" class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </body>
+</html>
